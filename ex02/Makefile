@@ -6,15 +6,15 @@
 #    By: Guille <Guille@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/02/08 07:53:27 by Guille            #+#    #+#              #
-#    Updated: 2026/03/04 00:10:44 by Guille           ###   ########.fr        #
+#    Updated: 2026/03/04 01:15:34 by Guille           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = 	serializer
+NAME = 	base
 CXX = c++
 CXXFLAGS = -Wall -Wextra -Werror -std=c++98 
 DEPFLAGS = -MMD -MP
-SRCS =  main.cpp Serializer.cpp
+SRCS =  main.cpp Base.cpp
 OBJDIR = obj
 OBJS = $(addprefix $(OBJDIR)/, $(SRCS:.cpp=.o))
 DEPS = $(OBJS:.o=.d)
