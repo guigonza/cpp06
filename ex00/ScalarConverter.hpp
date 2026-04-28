@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ScalarConverter.hpp                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: Guille <Guille@student.42.fr>              +#+  +:+       +#+        */
+/*   By: guigonza <guigonza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/03 15:31:34 by Guille            #+#    #+#             */
-/*   Updated: 2026/03/03 21:52:58 by Guille           ###   ########.fr       */
+/*   Updated: 2026/04/28 15:11:51 by guigonza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,11 +42,9 @@ class ScalarConverter {
 			TYPE_INVALID
 		};
 
-	    // Detección y conversión
 		static LiteralType  detectType(const std::string& literal);
 		static double       toDouble(const std::string& literal, LiteralType type);
 
-		// Impresión
 		static void         printChar(double value, bool isPseudo);
 		static void         printInt(double value, bool isPseudo);
 		static void         printFloat(double value);

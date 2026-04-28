@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   Serializer.hpp                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: Guille <Guille@student.42.fr>              +#+  +:+       +#+        */
+/*   By: guigonza <guigonza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/03 22:44:27 by Guille            #+#    #+#             */
-/*   Updated: 2026/03/04 00:03:29 by Guille           ###   ########.fr       */
+/*   Updated: 2026/04/28 15:25:06 by guigonza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 #define SERIALIZER_HPP
 
 #include <string>
-#include <cstdint>
+#include <stdint.h>
 #include <iostream>
 
 #ifndef DATA
